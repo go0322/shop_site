@@ -1,0 +1,100 @@
+@charset "utf-8";
+@import url(reset.css);
+
+*{
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/******** ヘッダー *********/
+
+header h1{
+  margin: 20px 0;
+  text-align: center;
+}
+
+nav .wrap{
+  width: 290px;
+  margin-bottom: 20px;
+}
+
+nav a{
+  font-size: 14px;
+  color: #C00;
+}
+
+nav a:hover{
+  color: rgb(95, 0, 0);
+  font-weight: bold;
+}
+
+/******** メイン　*********/
+
+section, article{
+  padding: 40px 0;
+}
+
+section{
+  background-image: url(../img/bg.png);
+}
+
+h2{
+  color: #C00;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3{
+  font-size: 14px;
+  text-align: center;
+}
+
+h3, p, address{
+  margin: 16px 0;
+  line-height: 1.5em;
+}
+
+.flex div, .flex > p{
+  width: 380px;
+}
+
+address{
+  text-align: center;
+}
+
+figure{
+  width: 400px;
+}
+
+/******** フッター *********/
+footer div{
+  margin: 20px 0;
+  text-align: right;
+}
+
+footer p{
+  padding: 20px 0;
+  font-size: 12px;
+  text-align: center;
+  border-top: 3px solid #C00;
+  margin: 0;
+}
